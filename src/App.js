@@ -4,26 +4,26 @@ import queso from './images/queso-taco.png'
 function App() {
   return (
     <>
-        <div class="wrapper">
-    <div class="top">
-      <header class="hero">
+        <div className="wrapper">
+    <div className="top">
+      <header className="hero">
         <h1>Terry's Taco Joint</h1>
         <p>Pretty Good Tacos!</p>
       </header>
-      <div class="cta cta1">
-        <p class="price">$1.99</p>
+      <div className="cta cta1">
+        <p className="price">$1.99</p>
         <p>Tacos</p>
       </div>
-      <div class="cta cta2">
-        <p class="price">$3.99</p>
+      <div className="cta cta2">
+        <p className="price">$3.99</p>
         <p>Kombucha</p>
       </div>
 
     </div>
-    <nav class="menu">
+    <nav className="menu">
       <button aria-expanded="false" aria-controls="menu-list">
-        <span class="open">☰</span>
-        <span class="close">×</span>
+        <span className="open">☰</span>
+        <span className="close">×</span>
         Menu
       </button>
       <ul id="menu-list">
@@ -45,32 +45,32 @@ function App() {
       </ul>
     </nav>
 
-    <section class="features">
-      <div class="feature">
-        <span class="icon">🌮</span>
+    <section className="features">
+      <div className="feature">
+        <span className="icon">🌮</span>
         <h3>Tacos</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
       </div>
-      <div class="feature">
-        <span class="icon">🍺</span>
+      <div className="feature">
+        <span className="icon">🍺</span>
         <h3>Beer</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
       </div>
-      <div class="feature">
-        <span class="icon">🍷</span>
+      <div className="feature">
+        <span className="icon">🍷</span>
         <h3>Wine</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
       </div>
-      <div class="feature">
-        <span class="icon">🎵</span>
+      <div className="feature">
+        <span className="icon">🎵</span>
         <h3>Music</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
       </div>
     </section>
 
-    <section class="about">
-      <img src={queso} alt="Yummy Taco" class="about__mockup"/>
-      <div class="about__details">
+    <section className="about">
+      <img src={queso} alt="Yummy Taco" className="about__mockup"/>
+      <div className="about__details">
         <h2>Featured Taco</h2>
         <p>Slim Profile, easy to hold and loaded with cheese.</p>
         <p>This is the one you have been waiting for</p>
@@ -79,7 +79,7 @@ function App() {
     </section>
 
 
-    <section class="gallery">
+    <section className="gallery">
       <h2>Instant Grams</h2>
       <img src="https://source.unsplash.com/random/201x201" alt=""/>
       <img src="https://source.unsplash.com/random/202x202" alt=""/>
